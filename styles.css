@@ -1,0 +1,19 @@
+#modal::backdrop {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+body {
+  max-width: 60vw;
+  margin: auto;
+}
+
+#modal {
+  max-width: 300px;
+  max-height: 300px;
+  border: 2px solid #666;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
